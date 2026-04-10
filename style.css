@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* header style */
 .header {
     background-color: rgb(255,255,255,0.7);
@@ -18,4 +20,40 @@
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
+    gap: 20px
 }
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+#cartimage{
+    width: 30px;
+    height: 30px;
+}
+
+.headerContent{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.headerContentItem1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+
+.headerContentItem1 p{
+    color: #555;
+}
+
+
+.headerContentItem2 img{
+    width: 100%;
+    padding: 50px;
+}
+
+
