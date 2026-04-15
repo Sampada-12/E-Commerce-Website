@@ -151,6 +151,63 @@ a{
     transform: translateY(-5px);
 }
 
+.smart-watch-banner{
+    margin-top: 80px;
+    background-color: rgb(255,255,255,0.7);
+    padding: 30px 0px;
+}
+
+.smart-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.smart-watch-img-container{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+
+.smart-watch-img-container img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.smart-watch-banner-content{
+     flex-basis: 50%;
+     min-width: 300px;
+}
+
+.smart-watch-banner-content p{
+    color: #555;
+}
+
+.smart-watch-banner-content h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+}
+
+
+
+.buyNow{
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buyNow:hover{
+    background-color: #563434;
+}
 
 
 
