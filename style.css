@@ -258,3 +258,26 @@ a{
     font-size: 16px;
 }
 
+
+/* <!----------Brands---------------> */
+.BrandingContainer{
+    margin: 100px auto;
+}
+
+.BrandingContainer{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px;
+    
+}
+
+.BrandingContainer img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.BrandingContainer img:hover{
+     filter: grayscale(0%);
+}
